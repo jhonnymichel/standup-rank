@@ -1,2 +1,2 @@
-# standup-rank
-standup comedy ranks (actually it can rank anything its quite generic)
+# React-Mobx Scaffold
+Just a minimal scaffold for my web apps.
