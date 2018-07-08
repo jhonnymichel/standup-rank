@@ -1,6 +1,8 @@
 {
   "name": "React-Mobx Scafolld",
-  "sideEffects": ["*.scss"],
+  "sideEffects": [
+    "*.scss"
+  ],
   "version": "0.0.1",
   "description": "Scaffolding",
   "main": "index.js",
