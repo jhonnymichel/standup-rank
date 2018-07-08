@@ -6,7 +6,10 @@ import store from 'app/stores/messages';
 @observer
 class App extends React.Component {
   componentDidMount() {
-    setTimeout(() => this.props.store.changeMessage('The message Changed'), 5000);
+
+    setTimeout(() => {
+      this.props.store.changeMessage('The message Changed');
+    }, 5000);
   }
 
   render() {
@@ -17,5 +20,8 @@ class App extends React.Component {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(<App store={store} />, document.querySelector('#app'));
+  ReactDOM.render(
+    <App store={store} />,
+    document.querySelector('#app')
+  );
 });
