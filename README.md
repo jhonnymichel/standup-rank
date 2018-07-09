@@ -1,2 +1,2 @@
-# React-Mobx Scaffold
-Just a minimal scaffold for my web apps.
+# Standup Comedy Natal Tier-List
+É isso.
